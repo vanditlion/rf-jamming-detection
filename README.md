@@ -46,3 +46,16 @@ The complete dataset and all project files are available on Google Drive:
 - 200 spectrograms per class per power level
 - Format: 128x128 NumPy .npy files (float32)
 - Trained model: rf_model.pkl (Random Forest, scikit-learn)
+
+## Dataset Download
+The complete dataset and all project files are available on Google Drive:
+
+🔗 [Download Full Dataset (5,600 spectrograms)](https://drive.google.com/drive/folders/1MOu3p8xwOwnIb1y3AAO4jCqGgmqN_Avu?usp=drive_link)
+
+### Dataset Contents
+- 5,600 real spectrograms captured in LMU CubeSat Laboratory
+- 4 classes: No Signal, Gaussian Noise, Single-Tone, Sweep
+- 9 power levels per jamming class: 0-24 dBm in 3 dBm steps
+- 200 spectrograms per class per power level
+- Format: 128x128 NumPy .npy files (float32)
+- Trained model: rf_model.pkl (Random Forest, scikit-learn)
